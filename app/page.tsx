@@ -56,7 +56,7 @@ export default function Home() {
         <div className="z-10 flex max-w-5xl flex-col items-center gap-8 text-center">
           {/* Badge */}
           <AnimatedGradientText>
-            <span className="inline-flex items-center gap-1">
+            <span className="inline-flex items-center gap-1 text-neutral-800 dark:text-neutral-200">
               <Radio className="h-4 w-4" />
               <span>Tech Podcast by OSSPH</span>
             </span>
