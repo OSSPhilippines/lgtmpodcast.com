@@ -46,6 +46,26 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) to view the website.
 
+## 🚀 Deployment
+
+### GitHub Pages
+
+This project is configured to automatically deploy to GitHub Pages on every push to the `main` branch.
+
+#### Setup Instructions:
+
+1. Go to your repository **Settings** → **Pages**
+2. Under **Source**, select **GitHub Actions**
+3. Push to the `main` branch to trigger the deployment workflow
+4. Your site will be available at `https://<username>.github.io/<repository-name>/`
+
+The deployment workflow:
+- Builds the Next.js app as a static site
+- Exports all pages as SEO-friendly HTML
+- Automatically deploys to GitHub Pages
+
+See `.github/workflows/deploy.yml` for the workflow configuration.
+
 ## 📁 Project Structure
 
 ```
