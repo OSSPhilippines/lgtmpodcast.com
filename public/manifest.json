@@ -1,0 +1,16 @@
+{
+  "name": "LGTM Podcast - Tech Talks by OSSPH",
+  "short_name": "LGTM Podcast",
+  "description": "LGTM Podcast is a tech podcast by Open Source Software Philippines (OSSPH) featuring discussions about software development, open source, and technology in the Philippines.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
