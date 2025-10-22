@@ -25,23 +25,23 @@ Website for LGTM Podcast by OSSPH - A tech podcast featuring discussions about s
 
 ### Prerequisites
 
-- Node.js 18+ 
-- npm or pnpm
+- Node.js 18+
+- pnpm
 
 ### Installation
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Run development server
-npm run dev
+pnpm dev
 
 # Build for production
-npm run build
+pnpm build
 
 # Start production server
-npm start
+pnpm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view the website.
